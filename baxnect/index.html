@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Baxnect | Human Movement Imitation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+
+
+    <script src="js/main.js"></script>
+
+
+  </head>
+  <body>
+
+
+
+    <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- header Nav Start -->
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" alt="Logo">
+                </a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Overview</a></li>
+                    <li><a href="implementation.html">Implementation</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <!--li><a href="#">Service</a></li -->
+
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header><!-- header close -->
+        
+    <!-- Slider Start -->
+    <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-2">
+            <div class="block">
+              <h1 class="animated fadeInUp">BAXNECT &#38; <br> BAXTER THE BOXER</h1>
+              <p class="animated fadeInUp">We enable baxter to mimic human behaviors </br> in dual-arm or single arm modes together with recording functionality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Wrapper Start -->
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="block">
+              <div class="section-title">
+                <h2>Overview</h2>
+                <p>We use Kinect to record the motion of human arms. After transformation and mapping, we send commands to Baxter.
+                  Baxter will carry out the same action as Kinect recording.</p>
+              </div>
+              <p>By using our Baxnect system, hopefully we will no longer need the teaching pedant to set the
+                actions and rules for industrial robotic arms. Robots can ‘learn’ from people simply in a more natural way.</p>
+            </div>
+          </div><!-- .col-md-7 close -->
+          <div class="col-md-5 col-sm-12">
+            <div class="block">
+              <img src="img/singarmbw.png" alt="Img">
+            </div>
+          </div><!-- .col-md-5 close -->
+        </div>
+      </div>
+    </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+          <h2>MAIN FUNCTIONS</h2>
+          <p>1. Use two arms to control two Baxter arms separately. 
+            A user moves his/her two arms to control the actions of Baxter’s two arms. Since Kinect can only get 4 DOF data from human arms, users can only control 4 DOF (7 DOF in total )of Baxter arms.
+          </p>
+          <p>2. Two human arms control one arm (with a gripper) of Baxter.
+            Since Baxter arms have 7 DOF while Kinect can only provide 4 DOF for each arm, we could not use one arm to control one Baxter arm with a gripper. Thus, we can use 7 DOF out of 8 DOF of two human arms to control a
+            Baxter arm and then use one DOF of a shoulder to control the gripper. </p>
+          <p>3. Face Recognition.
+            The system can recognize the user and display it on the screen of Baxter.
+          </p>
+          <a href="implementation.html" class="btn btn-view-works">View Implementation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="portfolio-work">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center">
+            <h2>Our TEAM</h2>
+            <p>Three EECS guys.</p>
+          </div>
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  <li class="mix Branding">
+                    <a href="#">
+                      <img src="img/portfolio/jialiang.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Jialiang Zhao (Alan)</h2>
+                          <p>Baxter driving, Kinect manipulating, Web.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Websites">
+                    <a href="#">
+                      <img src="img/portfolio/yifan.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Yifan Shu (Evan)</h2>
+                          <p>Kinect manipulating, Face tracking</p>
+
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mix Graphic">
+                    <a href="#">
+                      <img src="img/portfolio/yiming.jpg" alt="">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>Yiming Li (Anderson)</h2>
+                          <p>Presentation, Testing, Web design</p>
+
+                        </div>
+                      </div>
+
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h2>BAXNECT</h2>
+              <p>Let a Baxter learn what you do.</p>
+              <a class="btn btn-default btn-call-to-action" href="#" >BACK TO TOP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- footer Start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>2017. Theme by ThemHome.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+            
+            
+            
+    
+    </body>
+</html>
