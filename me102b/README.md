@@ -7,8 +7,13 @@ An automatic target-tracking mobile launcher robot.
 ## Team
 
 Jialiang Zhao
+
 Jianheng Shi
+
 Jiakai Liu
+
 Minghui Tian
+
 Wentian Tang
+
 Aohan Mei
